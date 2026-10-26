@@ -6,9 +6,9 @@ Restore **local Codex projects that disappeared from the desktop sidebar while t
 
 ## Download
 
-**[Download the latest one-click Windows release](https://github.com/convertify-pro/codex-project-recovery/releases/latest/download/Codex-Project-Recovery-One-Click-Windows.zip)**
+**[Download the one-click Windows ZIP](https://raw.githubusercontent.com/convertify-pro/codex-project-recovery/main/downloads/Codex-Project-Recovery-One-Click-Windows.zip)** · [SHA-256 checksum](https://raw.githubusercontent.com/convertify-pro/codex-project-recovery/main/downloads/Codex-Project-Recovery-One-Click-Windows.zip.sha256)
 
-The ZIP includes a private portable runtime, so users do not install Python, packages, or other software. Source code, tests, licenses, checksums, and full usage instructions are included in this repository and release.
+The ZIP includes a private portable runtime, so users do not install Python, packages, or other software. Source code, tests, licenses, checksums, and full usage instructions are included in this repository.
 
 ## Run it
 
@@ -36,7 +36,7 @@ After repair, Codex writes current state normally. Run **Save Organization Backu
 
 ## Verify the release
 
-Each release includes `Codex-Project-Recovery-One-Click-Windows.zip.sha256`. In PowerShell, calculate the downloaded ZIP's SHA-256 and compare it with the checksum file:
+The published checksum is `downloads/Codex-Project-Recovery-One-Click-Windows.zip.sha256`. In PowerShell, calculate the downloaded ZIP's SHA-256 and compare it with that file:
 
 ```powershell
 Get-FileHash .\Codex-Project-Recovery-One-Click-Windows.zip -Algorithm SHA256

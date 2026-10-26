@@ -2,3 +2,4 @@
 *.md text eol=lf
 *.txt text eol=lf
 *.bat text eol=crlf
+*.zip binary
