@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runtime/
+Codex-Project-Recovery-One-Click-Windows-*.zip
+*.sqlite
+*.sqlite-*
+.*codex-global-state*.json*
+recovery-data/
+CodexProjectRecovery/
